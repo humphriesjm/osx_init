@@ -1,13 +1,12 @@
 alias ll="ls -la"
-alias cdev="cd /Users/jason/Desktop/Dev/"
+alias cdev="cd /Users/jason-humphries-air/Dev"
 alias gst="git status"
 alias editbash="vi ~/.bash_profile"
 alias be="bundle exec"
 alias gca='git commit -v -a'
 
 export CC=/usr/bin/gcc
-export PATH="/usr/local/bin:/private/tmp:/usr/local/mysql/bin:/Application/Postgres.app/Contents/MacOS/bin:/Users/jason/Installs/android-sdk-macosx/platform-tools:$PATH"
-export EDITOR="sublime -w -n"
+export PATH="/usr/local/bin:/private/tmp:$PATH"
 
 source ~/.git-prompt.sh
 
@@ -20,5 +19,3 @@ if [ -f /opt/local/share/doc/git-core/contrib/completion/git-prompt.sh ]; then
 fi
 
 export PS1='\u#\w $(__git_ps1 "(%s)")> '
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
